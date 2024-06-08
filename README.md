@@ -69,4 +69,3 @@ Created by John Philip Sabinet
 ---
 
 Feel free to explore the repository and use the web apps as needed. If you have any suggestions or find any issues, please open an issue or a pull request on GitHub.
-```
