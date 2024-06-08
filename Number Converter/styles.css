@@ -1,0 +1,125 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffcc70, #c850c0);
+    transition: background 0.5s ease;
+}
+
+/* Header styling */
+header {
+    padding: 1em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+/* Button styling */
+button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+label, input, p {
+    margin: 0.5em 0;
+    width: 100%;
+}
+
+input {
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#results p {
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Dark theme styling */
+body.dark-theme {
+    background: linear-gradient(135deg, #141E30, #243B55);
+}
+
+body.dark-theme header, 
+body.dark-theme footer, 
+body.dark-theme .container {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-theme h1, 
+body.dark-theme p, 
+body.dark-theme a, 
+body.dark-theme label {
+    color: #fff;
+}
+
+body.dark-theme button {
+    background-color: #fff;
+    color: #333;
+}
+
+body.dark-theme button:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+}
