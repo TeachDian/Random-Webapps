@@ -1,4 +1,3 @@
-```markdown
 # Random Webapps Collection
 
 Welcome to the Random Web Apps Collection repository! This repository contains various web applications created using HTML, CSS, and JavaScript. Each web app serves a unique purpose and showcases different aspects of front-end development.
