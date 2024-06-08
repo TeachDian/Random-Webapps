@@ -26,8 +26,8 @@ You can try out the Number Converter by opening the `index.html` file in your we
 To use this web app, simply clone the repository and open `index.html` in your preferred web browser.
 
 ```bash
-git clone https://github.com/YourUsername/random-web-apps-collection.git
-cd random-web-apps-collection/number-converter
+git clone https://github.com/TeachDian/Random-Webapps.git
+cd Random-Webapps/number-converter
 open index.html
 ```
 
@@ -42,7 +42,7 @@ open index.html
 ### File Structure
 
 ```
-random-webapps-collection/
+Random-Webapps/
 │
 ├── number-converter/
 │   ├── index.html
@@ -78,8 +78,8 @@ You can try out the Password Generator by opening the `index.html` file in your 
 To use this web app, simply clone the repository and open `index.html` in your preferred web browser.
 
 ```bash
-git clone https://github.com/YourUsername/random-web-apps-collection.git
-cd random-web-apps-collection/password-generator
+git clone https://github.com/TeachDian/Random-Webapps.git
+cd Random-Webapps/password-generator
 open index.html
 ```
 
@@ -96,7 +96,7 @@ open index.html
 ### File Structure
 
 ```
-random-webapps-collection/
+Random-Webapps/
 │
 ├── password-generator/
 │   ├── index.html
