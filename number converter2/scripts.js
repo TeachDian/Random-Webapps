@@ -27,7 +27,8 @@ function decimalToHexadecimal(decimal) {
     return hexadecimal || '0';
 }
 
-// Convert number on button click
+// Pa shout out po idol next video
+// Convert number on button clikc
 document.getElementById('convert-button').addEventListener('click', function() {
     const decimalNumber = parseInt(document.getElementById('decimal-input').value, 10);
     
